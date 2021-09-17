@@ -1,0 +1,51 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: Helvetica, sans-serif;
+    color: white;
+}
+
+.header {
+    width: 100vw;
+    height: 125vh;
+    background-image: url("https://www.apple.com/v/home/he/images/overview/hero/hero__x15fcac9fw2q_small.jpg");
+    background-position: center ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#main-title{
+    margin-top : 5em;
+    font-size : 4em;
+    margin-bottom: 20;
+}
+
+#subtitle {
+    margin-top: 0;
+    font-size: 2em;
+    text-align: center;
+    width: 17em;
+}
+
+button { 
+    color: white;
+    background-color: rgba(0,0,0,0);
+    font-size: 1.2em;
+    border: 1px solid white;
+    padding: 0.5em;
+    border-radius: 2em;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
