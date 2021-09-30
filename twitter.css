@@ -1,0 +1,15 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+h1, h2, h3 {
+    font-family: inherit;
+    color: black;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

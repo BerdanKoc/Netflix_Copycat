@@ -1,0 +1,72 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    color: black;
+}
+
+.header {
+    width: 100vw;
+    height: 120vh;
+    background-image: url("https://www.apple.com/v/home/ae/images/heroes/iphone-13-pro/hero_iphone_13pro__dhnsegysa42u_large.jpg");
+    background-position: center;
+    background-color: #fbfbfd;
+    background-size: initial;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}           
+
+#main-title {
+    font-size: 4em;
+    margin-top: 1em;
+    margin-bottom: 0;
+}
+
+#subtitle {
+    margin: 0;
+    font-size: 2.2em;
+    text-align: center;
+    width: 17em;
+    font-weight: 100;
+}
+
+#availability {
+    color: gray;
+    font-size: 0.9em;
+}
+
+button {
+    color: black;
+    background-color: rgba(170, 17, 17);
+    font-size: 1.2em;
+    border: 1px solid white;
+    padding: 1em;
+    border-radius: 2em;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: rgb(25, 119, 207);
+    color: black;
+    cursor: pointer;
+}
+
+a {
+    color: rgb(0, 162, 255);
+    font-size: 1.2em;
+    margin: 0 2em;
+}
+
+a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+a::after {
+    content: " >";
+}
