@@ -1,3 +1,5 @@
+/*==================== General css ===================*/
+
 body {
     margin: 0;
     padding: 0;
@@ -6,21 +8,78 @@ body {
 
 
 .container {
-    background-color: yellow;
     display: flex;
     height: 90vh;
 }
 
+/*==================== Left part ===================*/
 .left-part {
-    background-color: green;
     flex: 1;
+    position: relative;
 }
 
+.left-content {
+    position: absolute;
+    right: 10em;
+    top: 15vh;
+}
+
+#facebook-logo {
+    height: 6em;
+}
+
+.left-part h1 {
+    font-weight: lighter;
+    margin: 0;
+}
+
+.left-part p {
+    font-size: 0.9em;
+    color: gray;
+    margin: 0;
+}
+
+.accounts-container {
+    
+}
+
+.profile {
+    width: 13em;
+    border: 2px rgb(233, 233, 233) solid;
+    border-radius: 1em;
+    overflow: hidden;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.profile:hover {
+    -webkit-box-shadow: 0px 0px 27px -16px rgba(0,0,0,0.75); 
+    box-shadow: 0px 0px 27px -16px rgba(0,0,0,0.75);
+}
+
+.avatar {
+    background-image: url(https://i.skyrock.net/1766/23051766/pics/2067509034_1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 13em;
+}
+
+.username {
+    background-color: white;
+    height: 3em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/*==================== right-part ===================*/
 .right-part {
     background-color: red;
     flex: 1;
 }
 
+/*==================== Footer ===================*/
 footer {
     height: 10vh;
     display: flex;
