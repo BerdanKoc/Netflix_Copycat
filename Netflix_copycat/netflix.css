@@ -1,0 +1,125 @@
+nav.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar svg {
+    fill: red;
+    width: 15em;
+    height: 3em;
+    padding: 2%;
+}
+
+body {
+    background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/45e6f443-8eff-4c7b-ba24-fbdc84c37718/5b3dc438-336f-4188-a501-abac8738892b/FR-fr-20210927-popsignuptwoweeks-perspective_alpha_website_small.jpg");
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: 100%;
+}
+
+.shadow {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    margin: 0%;
+    padding-bottom: 100%;
+} 
+
+
+.header {
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60em;
+    text-align: center;
+    margin-top: 9%;
+    
+}
+
+#main-title {
+    font-size: 4em;
+    margin: 0.2em;
+    
+}
+
+
+#subtitle {
+    font-size: 1.6em;
+}
+    
+
+#availability {
+    font-size: 1.2em;
+}
+
+.shadow .navbar .button {
+    height: 100%;
+    float: right;
+    right: 50px;
+    display: flex;
+    position: absolute;
+}
+
+.shadow .navbar .button #button1{
+    margin: auto;
+    margin-right: 10px;
+    cursor: pointer;
+    color: white;
+    background:rgba(0,0,0,.4);
+    align-items: center;
+    justify-content: center;
+    padding: 10px 15px;
+    font-size: .875rem;
+    border: 1px solid #aaa;
+    margin-top: 30px;
+}
+ 
+.shadow .navbar .button #button2 {
+    margin: auto;
+    margin-right: -7px;
+    cursor: pointer;
+    color: white;
+    background: #e50914;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 15px;
+    font-size: 1rem;
+    margin-top: 30px;
+    outline: none;
+    border-radius: 4px;
+    border: none;
+}
+
+.shadow .header .email_bar {
+    margin: auto;
+    width: 1000px;
+}
+
+.shadow .header .email_bar input {
+    font-size: 25px;
+    padding: 5px;
+    height: 60px;
+    width: 450px;
+    outline: none;
+    margin: auto;
+    margin-right: 3px;
+}
+
+
+.shadow .header .email_bar button {
+    width: 185px;
+    height: 74px;
+    font-size: 25px;
+    cursor: pointer;
+    outline: none;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    margin-left: -7px;
+    border: none;
+    background: #e50914;
+    color: white;
+}
+
+.shadow .header .email_bar button:hover {
+    background-color: #f40612;
+}
